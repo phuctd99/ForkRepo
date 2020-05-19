@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "3000_tu_vung",
+    "slug": "TuVung",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "assetExts": "./assets/data/dict_hh.db"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "Sản phẩm làm lại từ 3000 từ vựng tiếng Anh thông dụng ",
+    "android": {
+      "package": "com.PhamThiThuy.TuVung",
+      "versionCode": 1
+    }
+  }
+}
